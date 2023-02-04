@@ -1,27 +1,39 @@
-##In this project i made a site that shows a doctor's website.
+## In this project i made a site that shows a doctor's website.
+
 where any patient can booking a time for her/his treatment.
 
-##Technologies Used for Building the site
+## Technologies Used for Building the site
 
-React JS
+# React JS
+
 Full Project is Based on ReactJS. We have used many components to Build the site.
 
-tailwind
+# tailwind
+
 I'm using tailwind to design this site .
 
-DaisyUl
+# DaisyUl
+
 I'm using tailwind library daisyUi to design this site.
 
-React hot-toast
+# React hot-toast
+
 I'm using react toast after confirm a task.
 
-React Day picker
+# React Day picker
+
 I'm using react Day picker for appointment booking
 
-<Firebase>
+# Firebase
+
 I'm using firebase for login,logout for a user
 
 and many other things
 
-LIVE SITE LINK
-LiveSite --click to view Live Site
+## what i did??
+
+First, I made a navbar, then added banners, testimonials, services inside the home route, put a footer at the bottom. I used a calendar for the time schedule on the appointment page, people can choose the day they want from there. Then using Firebase. Login Logged Out...
+
+# LIVE SITE LINK
+
+[LiveSite] (https://time-management-2c21f.web.app) --click to view Live Site
