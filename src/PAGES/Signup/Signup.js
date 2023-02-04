@@ -12,13 +12,9 @@ const Signup = () => {
   } = useForm();
   const { signup, updateUser } = useContext(Authcontext);
   const [signuperror, setsignuperror] = useState("");
-  const [createdemail, setcreatedEmail] = useState("");
-  //   const [token] = useToken(createdemail);
+
   const navigate = useNavigate();
 
-  //   if (token) {
-  //     navigate("/");
-  //   }
   const hadlesingup = (data) => {
     console.log(data);
     setsignuperror("");
@@ -32,9 +28,7 @@ const Signup = () => {
           displayName: data.name,
         };
         updateUser(userInfo)
-          .then(() => {
-            // sakibuser(data.name, user.email);
-          })
+          .then(() => {})
           .catch((error) => {
             console.error(error);
           });

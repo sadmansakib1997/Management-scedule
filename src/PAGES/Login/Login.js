@@ -8,7 +8,7 @@ const Login = () => {
   const { login } = useContext(Authcontext);
   const [loginerror, setloginerror] = useState("");
   const [loginuseremail, setloginuseremail] = useState("");
-  // const [token] = Usetoken(loginuseremail);
+
   const location = useLocation();
   const navigate = useNavigate();
 
