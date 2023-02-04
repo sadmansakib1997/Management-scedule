@@ -18,7 +18,7 @@ I'm using react toast after confirm a task.
 React Day picker
 I'm using react Day picker for appointment booking
 
-Firebase
+<Firebase>
 I'm using firebase for login,logout for a user
 
 and many other things
