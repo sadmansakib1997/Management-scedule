@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+     "title": "Active Patient",
+      "value": 3800
+    },
+    {
+     "id": 2,
+      "title": "Trusted by Clinics",
+      "value": "230+"
+    },
+    {
+     "id": 3,
+      "title": "Donation",
+     "value": "$230M+"
+    }
+  ]
