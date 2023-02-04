@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to={"/"}>HOME</Link>
       </li>
       <li className="hover:bg-rose-600 rounded-lg">
-        <Link to={"/file"}>File Upload</Link>
+        <Link to={"/file"}>Your File</Link>
       </li>
 
       <li className="hover:bg-rose-600 rounded-lg">
@@ -26,12 +26,12 @@ const Navbar = () => {
 
       {user?.uid ? (
         <>
-          <li>
+          <li className="hover:bg-rose-600 rounded-lg">
             <button onClick={handlelogout}>Log Out</button>
           </li>
         </>
       ) : (
-        <li>
+        <li className="hover:bg-rose-600 rounded-lg">
           <Link to={"/login"}>LOG IN</Link>
         </li>
       )}
@@ -66,7 +66,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-2xl text-white hover:bg-rose-400">
-            Synthia's Portal
+            Asif's Portal
           </a>
         </div>
         <div className="navbar-center hidden md:flex">

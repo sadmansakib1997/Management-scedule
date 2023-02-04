@@ -3,6 +3,7 @@ import Button from "../../../Components/Button";
 import doctor from "../../../assets/images/photo-1638202993928-7267aad84c31.jpg";
 import bgimg from "../../../assets/images/istockphoto-861104740-612x612.jpg";
 import "./Appointment.css";
+import { Link } from "react-router-dom";
 
 const Appointment = () => {
   return (

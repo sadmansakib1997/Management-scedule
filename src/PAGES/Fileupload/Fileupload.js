@@ -44,15 +44,31 @@ const Fileupload = () => {
 
       <table class="table container">
         <thead>
-          <tr>
-            <th scope="col">SL.</th>
-            <th scope="col">appointmentDate</th>
-            <th scope="col">email</th>
-            <th scope="col">patientname</th>
-            <th scope="col">phone</th>
-            <th scope="col">price</th>
-            <th scope="col">slot</th>
-            <th scope="col">treatment</th>
+          <tr className="bg-slate-600">
+            <th scope="col" className="consult text-xl">
+              SL.
+            </th>
+            <th scope="col" className="consult text-xl">
+              appointmentDate
+            </th>
+            <th scope="col" className="consult text-xl">
+              email
+            </th>
+            <th scope="col" className="consult text-xl">
+              patientname
+            </th>
+            <th scope="col" className="consult text-xl">
+              phone
+            </th>
+            <th scope="col" className="consult text-xl">
+              price
+            </th>
+            <th scope="col" className="consult text-xl">
+              slot
+            </th>
+            <th scope="col" className="consult text-xl">
+              treatment
+            </th>
           </tr>
         </thead>
         <tbody>
